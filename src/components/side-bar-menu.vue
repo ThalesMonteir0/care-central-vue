@@ -6,7 +6,7 @@ const state = reactive({
   items:[
     { text: 'Home', icon: 'mdi-home', path:'/' },
     { text: 'Pacientes', icon: 'mdi-account', path: 'pacientes' },
-    { text: 'Sessões', icon: 'mdi-account-group', path: '/' },
+    { text: 'Sessões', icon: 'mdi-account-group', path: 'sessoes' },
     { text: 'Agenda semanal', icon: 'mdi-calendar-cursor', path: '' },
   ],
 })
