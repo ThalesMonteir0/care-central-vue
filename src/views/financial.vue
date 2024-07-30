@@ -33,7 +33,7 @@ const page = ref(1)
       <card-quantity quantity="R$ 1.000" description="Saída"/>
     </v-col>
     <v-col cols="12" md="4">
-      <card-add description="Adicionar movimentaçãO"/>
+      <card-add description="Adicionar movimentação"/>
     </v-col>
   </v-row>
 
