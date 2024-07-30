@@ -3,6 +3,7 @@ import {createRouter, createWebHistory} from "vue-router";
 import dashboard from '../views/dashboard.vue'
 import patients from '../views/patients.vue'
 import sessoes from '../views/sessions.vue'
+import financeiro from '../views/financial.vue'
 
 const routes = [
     {
@@ -19,6 +20,11 @@ const routes = [
         path:'/sessoes',
         name: "Sessoes",
         component: sessoes
+    },
+    {
+        path:'/financeiro',
+        name: "financeiro",
+        component: financeiro
     },
 ]
 
